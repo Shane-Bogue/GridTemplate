@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Fox';
+    src: url('/Fonts/FoxAndBower.otf') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fox', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    display: grid;
+    grid-template: 1fr 80%/ 1fr;
+    height: 100vh;
+    width: 100vw;
+}
+
+article {
+    display: grid;
+    grid-template: 1fr / 20% 1fr;
+    gap: 2px;
+    margin: 2px;
+}
+
+aside {
+    display: grid;
+    grid-template: 8fr 2fr/ 1fr;
+    height: 100%;
+}
+
+section {
+    display: grid;
+    grid-template: 1fr/ 6fr 4fr;
+}
